@@ -39,7 +39,7 @@
 # include <direct.h>
 # include <io.h>
 #else
-# include <limits.h>
+# include <linux/limits.h>
 # include <climits>  // Some Linux distributions define PATH_MAX here.
 #endif  // GTEST_OS_WINDOWS_MOBILE
 
